@@ -1,4 +1,16 @@
-//This solution
+// This solution Runtime 0 ms Beats 100% Memory 8.3 MB Beats 93.47%
+// This solution is better that other two
+class Solution {
+public:
+    vector<int> runningSum(vector<int>& nums) {
+        for(int i = 1; i < nums.size();)
+        {
+            nums[i++] += nums[i-1];
+        }
+        return nums;
+    }
+};
+
 //Runtime 8 ms Beats 18.54% Memory 8.3 MB Beats 99.95%
 
 
