@@ -1,3 +1,5 @@
+// url = https://leetcode.com/problems/running-sum-of-1d-array
+
 // This solution Runtime 0 ms Beats 100% Memory 8.3 MB Beats 93.47%
 // This solution is better that other two
 class Solution {
