@@ -9,7 +9,6 @@ public:
             for(int j=0;j<magazine.size();j++){
                 if(ransomNote[i]==magazine[j])
                 {
-                    cout<<i<<endl;
                     magazine[j]='-';
                     i++;
                     break;
