@@ -6,7 +6,6 @@ public:
         bool f = false;
         int start = 0;
         for(int i=0; i<s.size();){
-            int prev_i=i;
             bool check = false;
             for(int j= start; j < t.size(); j++){
                 if(s[i]==t[j]) {
@@ -16,7 +15,7 @@ public:
                     break;
                 }
             }
-            if(!check || prev_i==i) return f;
+            if(!check) return f;
         }
         return true;
     }
