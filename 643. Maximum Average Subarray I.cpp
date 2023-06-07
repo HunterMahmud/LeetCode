@@ -1,5 +1,5 @@
 // url = https://leetcode.com/problems/maximum-average-subarray-i
-
+// using prefix sum
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
