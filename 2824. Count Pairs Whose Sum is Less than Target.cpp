@@ -1,6 +1,6 @@
 // url = https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target
 
-// bruoteforce solution 
+// bruteforce solution 
 
 class Solution {
 public:
