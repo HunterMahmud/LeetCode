@@ -1,5 +1,8 @@
 // url = https://leetcode.com/problems/count-the-number-of-fair-pairs
 
+
+
+// solving with two pointer
 class Solution {
 public:
     long long countFairPairs(vector<int>& nums, int lower, int upper) {
